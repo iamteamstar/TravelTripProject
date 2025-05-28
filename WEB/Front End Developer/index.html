@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<!--r
+1-ALT + SHİFT + F =Kodları düzenlemekr
+2-CTRL + ALT + aşağı veya yukarı ok = İmleci aşağı veya yukarı büyütüyor
+3-CTRL + ENTER = Yeni Satır
+4-CTRL + SHİFT + K = Satır Silmeke 
+5-CTRL + D = Yazıyı seçtikten sonra kısayol uygulandığında seçilen kelimedeki her satırdakine değiştirme ve ekleme yapılabilir.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--web sitemiz hakkinda bilgi verir hangi özelliklere sahip olacağinin gösterir. karakter dizisinde turkce karakter destegi saglar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--responsive yani sitenin pc ve telefona uyarli hale getirmek için aktif olması için bu meta etiketi kullanilir. -->
+    <meta name="keywords" content="HTML dersleri, C derrsleri, yazılım"><!--bir kullanici tarayıcı üzerinde bir sey aratırken kullandığı anahtar kelimeler content içine yazılarak maplenir ve aratıldığında arama yapıldığında site biraz daha ön plana çıkmış olur -->
+    <meta name="description" content="Elmanın faydalari şunlardır"><!--linkin altında çıkan bilgi veren küçük açıklamalardır. kullanıcı siteye girmesine gerek kalmadan direkt olarak aratır aratmaz karşısına o kısım çıkar ayrı bir sayfa yazmaya erek bırakmaz-->
+    <!-- .class  #id-->
+<style>
+.yaziOzellikleri{text-decoration-color: blueviolet;text-align: left;}
+#divOzellik{width: 100%; height: 60px;background-color: aqua; text-align: center; }
+</style>
+    <title>Document</title>
+</head>
+<body>
+       
+
+
+    <abbr title="htmldsfsdfdsfsdfsdfsdf">sdfdsfdf</abbr> <!--Mouse ile üstüne gelindiğinde metnin uzun halini yazdırır--> <br>
+    suyun formulu H <sub>2</sub>O dur <!--alt indis-->
+    P(x)=x <sup>3</sup>+x <sup>5</sup><br><!--üst indis-->
+    P(x) 5 der fonk
+    <br><br><br>
+
+    <div id="divOzellik">
+    <h3>Web Siteme Hoşgeldiniz</h3>
+    <div class="yaziOzellikleri">
+        <p>Sono Sharingan Oraewa Doko Made Miteiru</p>
+        </div>
+    </div>
+    <!-- Html Biçimlendirme Etiketleri
+    
+    <hr> : bir satır ful çizgi çizer
+    <br> : breaktan gelir bir satır boşluk bırakmak anlamında gelir
+    <strong> : kalın yazmayı sağlar. tarayıcılara önemli olduğunu bildirir
+    <i> : italik yazar
+    <b> : yazıyı kalınlaştırır strong gibi
+    <mark> : kitap okurken fosforulu kalemle önemli yerleri boyamak gibidir
+    <em> : vurgulanan metni tanımlar
+    
+    -->
+
+
+<!--Resim Etiketi(img)
+
+src : kaynak
+alt : kaynak dosya bulunmadığında ne yazması gerektiğini bildirir.
+witdh : genişlik
+height : yükseklik
+center : resim veya yazıyı ortalamak için kulllanılır.
+
+-->
+
+<!--Link Etiketleri
+
+<a> : resim,dosya metin gibi bağlantılara ulaşmak için kullanılır
+<a href=""> : bu komutla tıklanacak metin girilir,nereye gitmek istediğimizi yazarız
+<a name=""> : tıklandığında gelmesi istenen bölüm belirlenir
+target : bağlantıyı yeni sekmede açmamızı sağlar
+<a href="mailto:e-posta adresi"> : istenen e postaya bağlantı kurar
+target = “ _blank” : bağlantıyı yeni sekmede açmamızı sağlar
+target = “_self”: bağlantıyı aynı sayfada açar
+- target = “_parent”: bağlantıyı ana sayfa gibi a
+-->
+
+<!-- Listeleme Etiketleri 
+
+ol : sıralı listeleler(ordinary)
+ul : sırasız şekilli listeler(unordinary)
+li : liste elemanı
+type : sıralı listelerde hangi sıralama çeşidinden(A,a,I,i,1) olacağını belirleriz
+start : sıralı listelerde belirlenen türün kaçıncı sırasından başlayacağını belirleriz
+
+-->
+
+<!--Tablo Oluşturma
+
+border : kalın 
+tr: satır oluşurur (table row)
+td : oluşturalan satıra veri girmemizi sağlar
+th : tablonun başlığı anlamına gelir(table header)
+rowspan : satır birleştirir
+colspan : sütünları birleştirir
+div : goze hos dizayn sağlar.sitenin ana iskeletini oluşturmayı sağlar.blok etikettir
+-->
+
+<!--IFrame Kullanımı
+Bir web sitesini ve veya videoyu sayfamıza gömmek için kullanılır
+
+-->
+
+<!--Form Etiketleri
+
+<input type="text">
+<input type="password">
+<input type="email"> : girilen metin mail formatında mı diye kontrol eder öyleyse sıkıntı yok
+<input type="checkbox">
+<input type="radio">
+<input type="file"> : dosya girilmesini sağlar
+<input type="reset">: inputlar içindeki verileri temizler
+<input type="submit" value="Gönder"> : gönderme butonudur
+<textarea id="w3review"  name="w3review" rows="4" cols="50">
+<select> : sıralı liste
+<option> : sırali listedeki sıralarda yazam seçim isimleri
+<form action="dosya.php"> : göndere basıldığında verilerin gideceği adres ve veri tabanı bunun için backend bilgisi gerekir    
+
+
+
+
+-->
+<br><br>
+<form >
+
+<input type="text" placeholder="Kullanıcı Adınız"><!--Hayalet yazı kutu içinde-->
+<input type="password" placeholder="Şifreniz">
+<input type="email" placeholder="Mail Adresi"> <br><!--mail formatını kontrol eder-->
+<input type="checkbox" id="ktapcbx">Spor Yapmak <br>
+ <input type="checkbox" id="sporcbx">Kitap Okumak <br>
+ <input type="radio" name=cinsiyetRadio checked="true">evet <!-- bu radiobuttonun seçili olarak gelmesini sağlar--> 
+ <input type="radio" name="cinsiyetRadio">hayır <br><br> <!-- ikisine de aynı name verdik diğer türlü iki radiobutton da seçilebiliyor-->
+ <input type="file">
+ İçecekler
+ <select placeholder="Seçiniz">
+    <option value="çay">çay</option><!-- valueler seçilen değerin arka plana gönderilme ismi olabilir-->
+    <option value="kahve">kahve</option>
+    <option value="Limonata">Limonata</option>
+ </select>
+ <textarea name="mesaj" id="mesajAlani" cols="30" rows="10" placeholder="Görüş ve dilekleriniz"></textarea>
+
+ <input type="submit" value="gonder">
+<input type="reset" value ="Temizle">
+
+<!-- javascript
+sunucu+ kullanıcı
+kontrol amacındadır
+head 
+body-> daha hızlı çalışır 
+<SCRİPT> 
+string "" veua '' olarak atanabilir genelde ""
+; satır bitimi
+var: değişken bildirir
+let: 
+const
+function
+
+-->
+
+</form>
+
+
+
+
+
+
+
+
+    </body>
+</html>
+
+
+
+
+

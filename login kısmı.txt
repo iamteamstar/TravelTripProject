@@ -1,0 +1,72 @@
+<div class="contact">
+	<div class="wrap">
+		<div class="contact-top">
+			<h3>İletişim Bilgileri</h3>
+			<p>Site ile ilgili geri dönüş ve önerilerinizi benimle paylaşabilirsiniz. Görüş ve şikayetlerinizi merakla bekliyor olacağım! </p>
+		</div>
+		<div class="form">
+			<form class="cmxform" id="contactForm" method="post">
+				<div>
+					<input type="text" class="textbox" value="Kullanızı Adı:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+				</div>
+				<div>
+					<input type="text" class="textbox" value="Email:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+				</div>
+				<div>
+					<input type="text" class="textbox" value="Tarih:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
+				</div>
+				<div>
+					<p><span class="read">Gönder</span></p>
+				</div>
+			</form>
+		</div>
+		<div class="form1">
+			<div>
+				<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mesaj:</textarea>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="contact-bottom">
+			<div class="contact-left">
+				<div class="contact-add">
+					<br />
+					<br />
+					<h3>Adresimiz</h3>
+					<p>Manisa Celal Bayar Üniversitesi, Hasan Ferdi Turgutlu Teknoloji Fakültesi, Yazılım Mühendisliği</p>
+					<p>Telefon : 0538-884-9816</p>
+					<p>Fax:1-22-5555</p>
+					<p>Email:azadkocak29@gmail.com</p>
+				</div>
+
+			</div>
+			<style>
+				.contact-map {
+					width: 550px;
+					height: 270px;
+					position: relative;
+				}
+
+					.contact-map iframe {
+						position: absolute;
+						top: 0;	
+						left: 0;
+						width: 100%;
+						height: 100%;
+						border: 0;
+					}
+			</style>
+
+			<div class="contact-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.822268539127!2d27.703273174793818!3d38.49174287053941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b9a791df45ce87%3A0xe32779b610d2d400!2sMCB%C3%9C%2C%20Hasan%20Ferdi%20Turgutlu%20Teknoloji%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1736178087749!5m2!1str!2str"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+			</div>
+			<div class="clear"></div>
+
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
